@@ -23,6 +23,7 @@ buttonSearch.addEventListener("click", function(search) {
 
             //CREO LA VARIABILE PER ROW
             const row = document.querySelector(".row");
+            row.innerHTML = '';
 
             //CREO UN NUOVO ARRAY VUOTO IN CUI ANDRO AD INSERIRE GLI ELEMENTI FILTRATI
             let filtered = [];
